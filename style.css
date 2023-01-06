@@ -1,0 +1,163 @@
+/* style part start here */
+
+
+/* reset code start here */
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* reset code end here */
+
+
+/* global css */
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* global css */
+
+
+/* header part start here */
+header{
+    width: 100%;
+    height: 70vh;
+    background-image: url(images/banner/banner3.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.content-container{
+    width: 400px;
+    margin-right: 120px;
+    text-align: right;
+
+}
+.content-container .content-title{
+    font-size: 48px;
+    text-transform: capitalize;
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.content-container .content-desc{
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.content-container button{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #005FAC;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: none;
+}
+/* header part end here */
+
+
+
+
+
+
+
+
+
+/* main secton start here */
+main{
+    width: 85%;
+    margin: 120px auto;
+}
+
+
+
+
+/* failure section start here */
+.failure-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.failure-section .left-part img{
+    width: 450px;
+}
+.failure-section .right-part{
+    width: 350px;
+    text-align: left;
+    margin-top: 80px;
+}
+.failure-section .right-part h3{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.failure-section .right-part p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 20px;
+}
+.failure-section .right-part ul li{
+    list-style: none;
+    margin: 8px 0px 8px 8px;
+
+}
+.right-part ul li .fa-check{
+    color: green;
+    margin-right: 4px;
+}
+/* failure section end here */
+
+
+
+/* plan section start here */
+.plan{
+    width: 85%;
+    margin: 140px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.plan h2{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 25px 0px;
+}
+.skills .skill{
+
+}
+.skill h4{
+    font-weight: 700;
+    font-size: 22px;
+    margin: 8px 0px;
+}
+.skill p{
+    font-size: 18px;
+    color: #737272;
+}
+/* plan section end here */
+
+
+
+
+/* main secton end here */
+
+
+
